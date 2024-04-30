@@ -46,7 +46,6 @@ ul{
 .nav_btn{
     font-size: 50px;
     float: right;
-    margin-left: 20px;
     position: relative;bottom: 230px;
     width: 20%;
     background-color: transparent;
@@ -396,7 +395,7 @@ a:focus{
     
 }
 
-@media only screen and (min-device-width:150px) and (max-device-width:236px){
+@media only screen and (min-device-width:10px) and (max-device-width:236px){
     .nav_btn{
         position: relative;left: 195px;
     }
